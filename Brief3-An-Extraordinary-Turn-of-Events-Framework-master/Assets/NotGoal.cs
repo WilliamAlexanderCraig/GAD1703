@@ -4,17 +4,15 @@ using UnityEngine;
 
 public class NotGoal : MonoBehaviour
 {
-
-    public Transform Ball;
-    public float distance = 1;
-    public GameManager gm;
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if(Vector3.Distance(Ball.position, transform.position) < distance)
-        {
-           
-        }
+        
     }
 }
